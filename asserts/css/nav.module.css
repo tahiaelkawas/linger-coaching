@@ -1,0 +1,251 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 0px 12px;
+  justify-content: center;
+  padding: 6px 0px;
+  border-top: 1px solid #00000014;
+  height: 70px;
+}
+
+.navbar ul li:hover {
+  color: #007a4f;
+}
+
+.navbar .bars {
+  display: none;
+}
+.special_link {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.stick_btn {
+  background-color: #007a4f;
+  border: none;
+  padding: 9px 22px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: system-ui;
+}
+
+.stick_btn:hover {
+  background-color: #334a7c;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 14px 0px;
+  height: 140px;
+}
+
+.logo img {
+  cursor: pointer;
+  max-width: 100%;
+  padding: 0px 12px;
+}
+
+/* navbar end */
+
+/* stickt navbar start  */
+.stick_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 12px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 0px;
+  position: fixed;
+  transition: top 0.3s;
+  background-color: #fff;
+  height: 60px;
+  z-index: 701;
+  background: #fff;
+  opacity: .97;
+  top: -70px;
+}
+
+.stick_nav li img {
+  width: 120px;
+}
+
+.stick_nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  align-items: center;
+}
+
+.stick_nav ul li {
+  margin: 0px 22px;
+  cursor: pointer;
+  color: #334a7c;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 22px;
+  font-family: system-ui;
+}
+
+.stick_nav button:hover {
+  background-color: #334a7c;
+}
+
+.list_hidden_menu{
+  display: flex;
+  position: absolute;
+  background-color: #f1f1f1;
+  opacity: 1;
+  flex-direction: column;
+  position: absolute;
+  background: white;
+  align-items: flex-start;
+  text-align: start;
+  width: 200px;
+  padding-top: 22px;
+  transition: 0.3s;
+}
+
+.list_hidden_menu h5 {
+  color: #334a7c;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  border-top: 1px solid #00000014;
+  padding: 8px 26px;
+  transition: 0.3s;
+}
+
+.list_hidden_menu h5:hover {
+  background-color: rgb(238, 238, 238);
+  cursor: pointer;
+  color: #007a4f;
+}
+
+.dropdown_menu {
+  display: none;
+  
+}
+
+@media only screen and (max-width: 1115px) {
+  .stick_nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 970px) {
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 85%;
+    justify-content: center;
+    margin-left: auto;
+  }
+
+  .navbar ul li {
+    margin: 0px 22px;
+    cursor: pointer;
+    color: #334a7c;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 22px;
+    font-family: system-ui;
+  }
+}
+
+
+@media only screen and (max-width: 970px) {
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .navbar .bars {
+    display: block;
+    background-color: white;
+    padding: 6px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+  }
+
+  .navbar .bars:hover {
+    background-color: white;
+  }
+
+  .navbar .bars span {
+    width: 26px;
+    height: 2px;
+    background: gray;
+    margin: 4px 0px;
+    display: flex;
+  }
+
+  .navbar .listItem {
+    display: none;
+  }
+
+  .list_mobile{
+    transition: all 2s;
+  }
+
+  .list_mobile {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: #ffffff;
+    top: 214px;
+    left: 14px;
+    width: 260px;
+    padding: 0px;
+    text-align: start;
+    z-index: 1000;
+  }
+
+  .navbar .list_mobile li {
+    color: #334a7c;
+    width: 260px;
+    padding: 12px;
+    font-weight: 400;
+  }
+
+  .navbar ul li:hover {
+    color: #007a4f;
+    cursor: pointer;
+  }
+
+  .navbar ul li {
+    padding: 8px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    list-style-type: none;
+  }
+
+  .special_link{
+    text-align: initial;
+  }
+
+  .list_hidden_menu,
+  .list_hidden_menu h5{
+    width: 260px;
+  }
+
+  .list_hidden_menu h5{
+    padding: 12px;
+  }
+}

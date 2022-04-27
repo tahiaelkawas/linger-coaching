@@ -1,0 +1,152 @@
+.servic_title {
+    background-color: #d6dae4;
+    padding: 2rem 8rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.servic_title h4 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #007a4f;
+    text-align: center;
+    font-style: italic;
+    padding: 12px;
+}
+
+.Servic_link_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    margin-bottom: 2rem;
+}
+
+.Servic_link_container h2 {
+    font-size: 29px;
+    line-height: 37px;
+    letter-spacing: 0px;
+    color: #1e3f75;
+    font-weight: 600;
+}
+
+.servic_card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 86%;
+    margin: auto;
+
+}
+
+.servic_card {
+    width: 100%;
+    max-width: 350px;
+    padding: 0px 18px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 3px solid #007a4f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.servic_card h5 {
+    font-size: 32px;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #1e3f75;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.servic_card h5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.servic_box_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_bot_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.service_bot_logo img {
+    max-width: 100%;
+}
+
+.servic_box {
+    width: 66%;
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid #007a4f;
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.servic_box ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.servic_box li::before {
+    content: "•";
+    color: #007a4f;
+    display: inline-block;
+    width: 1em;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.servic_box h4 {
+    text-align: center;
+    font-style: italic;
+    color: #007a4f;
+    margin: 0px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.servic_box span {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    .servic_title {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .servic_box h4 {
+        font-size: 22px;
+    }
+
+    .servic_card h5 {
+        font-size: 26px;
+    }
+}

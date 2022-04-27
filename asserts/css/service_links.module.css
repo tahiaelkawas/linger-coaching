@@ -1,0 +1,83 @@
+.general_title {
+    background-color: #d6dae4;
+    padding: 2.6rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.general_title h1 {
+    color: #007a4f;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.general_card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 98%;
+    margin: 4rem auto;
+}
+
+.general_card img {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+}
+
+.general_card h1 {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin: 0px 24px;
+    color: #007a4f;
+}
+
+.busin_text p {
+    color: #444444;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.general_main {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 1115px) {
+    .general_card h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .general_card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .general_card img {
+        width: 100%;
+    }
+
+    .general_card h1 {
+        margin: 0px;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .genral_title h1 {
+        font-size: 34px;
+    }
+
+    .general_main p {
+        font-size: 16px;
+    }
+}
