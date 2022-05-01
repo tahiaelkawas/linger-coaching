@@ -15,7 +15,6 @@ const Office = () => {
                 <div className={style.busin_text}>
                     <p>Personal organizational skills create a professional environment which allows you to better manage a business as an owner or manage a productive work environment for all employees.</p>
                     <p>The benefits of being organized at work can create better:</p>
-                    <p>
                         <ul>
                             <li>Time management skills</li>
                             <li>Better communication</li>
@@ -30,7 +29,6 @@ const Office = () => {
                             <li>Time and material cost savings</li>
                             <li>Employee retention</li>
                         </ul>
-                    </p>
                     <p>Developing good organizational habits by establishing a well-organized office space, storefront and/or warehouse will help you streamline and maintain the environment needed to run a business efficiently and economically.</p>
                     <p>You get overall better productivity as a team with a sense of calm, better workplace safety and positive morale that can support a mentally healthy workplace. You also establish a sense of trust with other employees, job roles are clear through better communication and defined roles and in return, you get better quality of work from employees and a better chance of employee retention.</p>
                 </div>

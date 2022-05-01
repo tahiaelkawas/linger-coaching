@@ -15,7 +15,6 @@ const WorkForec = () => {
                 </div>
                 <div className={style.busin_text}>
                     <p><strong>We will work with you to develop a Workforce Plan that will meet your Business Plan goals and objectives.</strong></p>
-                    <p>
                         <ul>
                             <li> Identify the current gaps in function or skill set within your business</li>
                             <li>Create an Organization Chart</li>
@@ -24,9 +23,7 @@ const WorkForec = () => {
                             <li>Prepare job posting for open or new positions</li>
                             <li>Provide a succession planning template for use in reviewing employees</li>
                         </ul>
-                    </p>
                     <p> <strong>The benefits of a good Employment plan include:</strong></p>
-                    <p>
                         <ul>
                             <li> Clearly defined daily roles and responsibilities</li>
                             <li> Greater overall business and employee efficiency</li>
@@ -36,7 +33,6 @@ const WorkForec = () => {
                             <li>Higher customer satisfaction and reviews</li>
                             <li>More predictable growth and results</li>
                         </ul>
-                    </p>
                 </div>
             </div>
             <Footer />

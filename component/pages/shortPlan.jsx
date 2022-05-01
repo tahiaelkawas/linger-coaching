@@ -15,7 +15,6 @@ const ShortPlan = () => {
                 </div>
                 <div className={style.busin_text}>
                     <p>Short Term Business Forecasting, a 6-12 month look ahead, provides your business and team with a clearly defined set of goals, roles and responsibilities. While “forecasting” involves guesswork in addition to hard data, you will be able to quickly test and learn from your results and make informed and intelligent decisions. By revisiting your progress in smaller time increments you will make course changes regularly as needed and the accuracy of your Short Term Forecasts will continue to improve. This can lead to a more efficient workplace, greater productivity and improved customer and employee satisfaction. Beacon Business Advisors Short Term Business Forecasting program includes:</p>
-                    <p>
                         <ul>
                             <li>Business Assessment</li>
                             <li>Executive Summary</li>
@@ -27,7 +26,6 @@ const ShortPlan = () => {
                             <li>Team and Key Roles</li>
                             <li>Bi-weekly 12 month Maintenance Program/Reviews/Revisions</li>
                         </ul>
-                    </p>
                     <p>Beacon Business Advisors will work alongside you during the entire Short Term Business Forecasting process, its execution and regularly thereafter to review your progress and continuing needs.</p>
                 </div>
             </div>
