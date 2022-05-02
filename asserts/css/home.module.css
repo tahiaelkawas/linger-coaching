@@ -102,7 +102,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 4rem 30px;
-  background-color: #d6dae4;
+  background-color:  #f2ede4;
   box-sizing: border-box;
   margin: 20px 0px;
 }
@@ -159,7 +159,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d6dae4;
+  background-color: #56594A;
   margin: 22px 0px;
 }
 
@@ -168,13 +168,14 @@
   line-height: 43px;
   font-weight: 600;
   letter-spacing: 0px;
-  color: #1e3f75;
+  color: #f2ede4;
   margin: 0px;
   margin-bottom: 10px;
 }
 
 .talk_text a {
-  color: #007a4f;
+  /* color: #adadad; */
+  color:#f2ede4;
   text-decoration: 2px underline;
   font-size: 32px;
   font-style: italic;
@@ -270,10 +271,12 @@
   justify-content: center;
   margin: 34px 0px;
   padding: 12px;
+  background-color: #56594A;
+  margin-bottom: 0PX;
 }
 
 .copy_right a {
-  color: #007a4f;
+  color: #f2ede4;
   margin: 0;
   font-size: 18px;
   text-align: center;
@@ -281,7 +284,7 @@
 }
 
 .copy_right span {
-  color: #444444;
+  color: darkgray;
   margin: 0;
   margin-bottom: 5px;
   text-align: center;
@@ -294,11 +297,11 @@
 
 .back_top {
   font-size: 23px;
-  background: white;
+  background: #56594A;
   border: none;
   font-weight: inherit;
   transform: scaleX(1.8);
-  color: green;
+  color: white;
   font-family: auto;
   cursor: pointer;
 }

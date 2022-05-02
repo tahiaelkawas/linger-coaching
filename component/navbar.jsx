@@ -5,6 +5,7 @@ import styles from '../asserts/css/nav.module.css'
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [isHover, setIsHover] = useState(false)
+    const [stickyHover, setStickyHover] = useState(false)
     const ServiceData = [
         {
             title: "Business Planning",
@@ -46,7 +47,7 @@ const Navbar = () => {
     return (
         <div>
             <div className={styles.logo}>
-                <img src="/assets/images/logo.png" />
+                <a href='#'></a>
             </div>
             <nav className={styles.navbar}>
                 <button className={styles.bars} onClick={() => setIsOpen(!isOpen)}>
@@ -61,32 +62,32 @@ const Navbar = () => {
                     <Link href='/about-us'>
                         <li>ABOUT US</li>
                     </Link>
-                    <button className={styles.special_link} onMouseEnter={() => setIsHover(!isHover)} onMouseLeave={()=> setIsHover(!isHover)}>
-                    <Link href='/services' >
-                        <div>
-                            <li>OUR SERVICES</li>
-                            <div className={isHover ? styles.list_hidden_menu : styles.dropdown_menu}  >
-                                {
-                                    ServiceData.map((item, index) => (
-                                        <Link href={item.link} key={index}>
-                                            <h5>{item.title}</h5>
-                                        </Link>
-                                    ))
-                                }
+                    <div className={styles.special_link} onMouseEnter={() => setIsHover(!isHover)} onMouseLeave={() => setIsHover(!isHover)}>
+                        <Link href='/services' >
+                            <div>
+                                <li>OUR SERVICES</li>
+                                <div className={isHover ? styles.list_hidden_menu : styles.dropdown_menu} >
+                                    {
+                                        ServiceData.map((item, index) => (
+                                            <Link href={item.link} key={index}>
+                                                <h5>{item.title}</h5>
+                                            </Link>
+                                        ))
+                                    }
+                                </div>
                             </div>
-                        </div>
-                    </Link>
-                    </button>
+                        </Link>
+                    </div>
                     <Link href='/blog'>
                         <li>BLOG</li>
                     </Link>
                 </ul>
-                <button className={styles.stick_btn}>CONTACT US</button>
+                <a href='/contact-us' className={styles.stick_btn}>CONTACT US</a>
             </nav>
             <div className={styles.stick_nav} id='stick_nav'>
                 <ul>
-                    <li>
-                        <img src="/assets/images/logo.png" alt="" />
+                    <li className={styles.sticky_logo}>
+                        <a href='#'></a>
                     </li>
                     <Link href='/'>
                         <li>HOME</li>
@@ -94,14 +95,27 @@ const Navbar = () => {
                     <Link href='/about-us'>
                         <li>ABOUT US</li>
                     </Link>
-                    <Link href='/services'>
-                        <li>OUR SERVICES</li>
-                    </Link>
+                    <div className={styles.special_link} onMouseEnter={() => setStickyHover(!stickyHover)} onMouseLeave={() => setStickyHover(!stickyHover)}>
+                        <Link href='/services' >
+                            <div>
+                                <li>OUR SERVICES</li>
+                                <div className={stickyHover ? styles.list_hidden_menu : styles.dropdown_menu}  >
+                                    {
+                                        ServiceData.map((item, index) => (
+                                            <Link href={item.link} key={index}>
+                                                <h5>{item.title}</h5>
+                                            </Link>
+                                        ))
+                                    }
+                                </div>
+                            </div>
+                        </Link>
+                    </div>
                     <Link href='/blog'>
                         <li>BLOG</li>
                     </Link>
                 </ul>
-                <button  className={styles.stick_btn}>CONTACT US</button>
+                <a href='#' className={styles.stick_btn}>CONTACT US</a>
             </div>
         </div>
     )
