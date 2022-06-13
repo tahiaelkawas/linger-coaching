@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Services from '../component/pages/services'
 
-export default function OurSevices() {
+export default function OurSevicesPage() {
   return (
     <div className={styles.container}>
       <Head>

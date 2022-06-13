@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Contact from '../component/pages/contact_us';
 
-export default function ContactUs() {
+export default function ContactUsPage() {
   return (
     <div >
       <Head>

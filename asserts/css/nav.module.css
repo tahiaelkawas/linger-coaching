@@ -88,7 +88,7 @@
   z-index: 701;
   background: #fff;
   opacity: .97;
-  top: -70px;
+  top: 0;
 }
 
 
@@ -157,113 +157,46 @@
   
 }
 
-@media only screen and (max-width: 1115px) {
-  .stick_nav {
-    display: none;
-  }
+.navLinkcontainer {
+  display: flex;
 }
 
-@media only screen and (min-width: 970px) {
-  .navbar ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    width: 85%;
-    justify-content: center;
-    margin-left: auto;
-  }
-
-  .navbar ul li {
-    margin: 0px 22px;
-    cursor: pointer;
-    color: white;
-    font-weight: 600;
-    font-size: 21px;
-    line-height: 22px;
-    font-family: system-ui;
-  }
+.bars span {
+  width: 26px;
+  height: 2px;
+  background: gray;
+  margin: 8px 0px;
+  display: flex;
 }
 
+.bars {
+  display: none;
+}
 
-@media only screen and (max-width: 970px) {
-
-  .navbar {
-    justify-content: space-between;
-  }
-
-  .navbar .bars {
+@media screen and (max-width: 768px) {
+  .bars {
     display: block;
-    background-color: white;
-    padding: 6px;
-    transition: 0.3s;
-    cursor: pointer;
-    border: none;
   }
-
-  .navbar .bars:hover {
-    background-color: white;
-  }
-
-  .navbar .bars span {
-    width: 26px;
-    height: 2px;
-    background: gray;
-    margin: 4px 0px;
-    display: flex;
-  }
-
-  .navbar .listItem {
-    display: none;
-  }
-
-  .list_mobile{
-    transition: all 2s;
-  }
-
-  .list_mobile {
-    display: flex;
-    position: absolute;
+  .navLinkcontainer {
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    background: #ffffff;
-    top: 214px;
-    left: 14px;
-    width: 260px;
-    padding: 0px;
-    text-align: start;
-    z-index: 1000;
+    position: absolute;
+    background-color: #fff;
+    right: -40%;
+    transition: right 1s;
+    top: 68%;
   }
 
-  .navbar .list_mobile li {
-    color: #334a7c;
-    width: 260px;
-    padding: 12px;
-    font-weight: 400;
+  .show {
+    right: -2%;
+    transition: right 1s;
   }
 
-  .navbar ul li:hover {
-    color: #007a4f;
-    cursor: pointer;
+  .stick_nav ul {
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
   }
-
-  .navbar ul li {
-    padding: 8px 0px;
-    font-size: 18px;
-    font-weight: 500;
-    list-style-type: none;
-  }
-
-  .special_link{
-    text-align: initial;
-  }
-
-  .list_hidden_menu,
-  .list_hidden_menu h5{
-    width: 260px;
-  }
-
-  .list_hidden_menu h5{
-    padding: 12px;
+  .stick_nav ul li {
+    margin: 8px 22px;
   }
 }
