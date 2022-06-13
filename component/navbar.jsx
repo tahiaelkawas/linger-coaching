@@ -8,102 +8,52 @@ const Navbar = () => {
     const [stickyHover, setStickyHover] = useState(false)
     const ServiceData = [
         {
-            title: "Business Planning",
-            link: "/business-plan"
+            title: "School",
+            link: "/school"
         },
         {
-            title: "Office Planning",
-            link: "/office-plan"
+            title: "Workplace",
+            link: "/workplace"
         },
         {
-            title: "Contingency Planning",
-            link: "/contingencg-plan"
-        },
-        {
-            title: "Pivot/Change Planning",
-            link: "/pivot-plan"
-        },
-        {
-            title: "Workforce Planning",
-            link: "/workforce-plan"
-        },
-        {
-            title: "Short Term Business Forecasting",
-            link: "/short-plan"
-        },
-
+            title: "Parenting",
+            link: "/parenting"
+        }
     ]
 
-    if (process.browser) {
-        window.addEventListener("scroll", scrollFunction);
-        function scrollFunction() {
-            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                document.getElementById("stick_nav").style.top = "0";
-            } else {
-                document.getElementById("stick_nav").style.top = "-60px";
-            }
-        }
+    const handleToogle = ()=> {
+        setIsOpen(!isOpen)
     }
+
     return (
         <div>
-            <div className={styles.logo}>
-                <a href='#'></a>
-            </div>
-            <nav className={styles.navbar}>
-                <button className={styles.bars} onClick={() => setIsOpen(!isOpen)}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul className={isOpen ? styles.list_mobile : styles.listItem} onClick={() => setIsOpen(false)}>
-                    <Link href='/'>
-                        <li>HOME</li>
-                    </Link>
-                    <Link href='/about-us'>
-                        <li>ABOUT US</li>
-                    </Link>
-                    <div className={styles.special_link} onMouseEnter={() => setIsHover(!isHover)} onMouseLeave={() => setIsHover(!isHover)}>
-                        <Link href='/services' >
-                            <div>
-                                <li>OUR SERVICES</li>
-                                <div className={isHover ? styles.list_hidden_menu : styles.dropdown_menu} >
-                                    {
-                                        ServiceData.map((item, index) => (
-                                            <Link href={item.link} key={index}>
-                                                <h5>{item.title}</h5>
-                                            </Link>
-                                        ))
-                                    }
-                                </div>
-                            </div>
-                        </Link>
-                    </div>
-                    <Link href='/blog'>
-                        <li>BLOG</li>
-                    </Link>
-                </ul>
-                <a href='/contact-us' className={styles.stick_btn}>CONTACT US</a>
-            </nav>
             <div className={styles.stick_nav} id='stick_nav'>
                 <ul>
                     <li className={styles.sticky_logo}>
                         <a href='#'></a>
                     </li>
+                    <div className={styles.bars} onClick={handleToogle}>
+                        <span />
+                        <span />
+                        <span />
+                    </div>
+                    <div className={`${ styles.navLinkcontainer} ${isOpen && styles.show}`}>
+
                     <Link href='/'>
-                        <li>HOME</li>
+                        <li onClick={()=>setIsOpen(false)}>HOME</li>
                     </Link>
                     <Link href='/about-us'>
-                        <li>ABOUT US</li>
+                        <li onClick={()=>setIsOpen(false)}>ABOUT US</li>
                     </Link>
                     <div className={styles.special_link} onMouseEnter={() => setStickyHover(!stickyHover)} onMouseLeave={() => setStickyHover(!stickyHover)}>
                         <Link href='/services' >
                             <div>
-                                <li>OUR SERVICES</li>
+                                <li onClick={()=>setIsOpen(false)}>OUR SERVICES</li>
                                 <div className={stickyHover ? styles.list_hidden_menu : styles.dropdown_menu}  >
                                     {
                                         ServiceData.map((item, index) => (
                                             <Link href={item.link} key={index}>
-                                                <h5>{item.title}</h5>
+                                                <h5 onClick={()=>setIsOpen(false)}>{item.title}</h5>
                                             </Link>
                                         ))
                                     }
@@ -111,11 +61,12 @@ const Navbar = () => {
                             </div>
                         </Link>
                     </div>
-                    <Link href='/blog'>
+                    </div>
+                    {/* <Link href='/blog'>
                         <li>BLOG</li>
-                    </Link>
+                    </Link> */}
                 </ul>
-                <a href='#' className={styles.stick_btn}>CONTACT US</a>
+                {/* <a href='#' className={styles.stick_btn}>CONTACT US</a> */}
             </div>
         </div>
     )

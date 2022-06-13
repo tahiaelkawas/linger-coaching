@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Blog from '../component/pages/blog'
 
-export default function Blogs() {
+export default function BlogsPage() {
   return (
     <div className={styles.container}>
       <Head>

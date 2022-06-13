@@ -29,7 +29,7 @@ const Footer = () => {
             <div>
                 <div className={styles.top_footer}>
                     <div className={styles.foot_top_first}>
-                        <img src="/assets/images/foot_logo.png" />
+                        <img src="/assets/images/logo.png" />
                     </div>
                     <div className={styles.foot_top_sec}>
                         <h5>Contact</h5>
@@ -40,7 +40,7 @@ const Footer = () => {
                             St. Augustine, FL 32084-1403</p>
                     </div>
                     <div className={styles.foot_top_third}>
-                        <h2>Beacon Business Advisors</h2>
+                        <h2>Linger Coaching Advisors</h2>
                         <span>Proud Member of</span>
                         <div >
                             <img src="/assets/images/flag_logo.jpg" />
@@ -58,8 +58,7 @@ const Footer = () => {
                 <a href="#">Privacy Policy</a>
                 <br />
                 <br />
-                <span>© 2021 Beacon Business Advisors – All rights reserved.</span>
-                <a href="#">Web Design by Ward Design Group – St. Augustine, Florida</a>
+                <span>© 2022 Linger Coaching – All rights reserved.</span>
             </div>
         </div>
     )
