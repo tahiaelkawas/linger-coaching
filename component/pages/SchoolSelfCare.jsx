@@ -10,7 +10,7 @@ const SchoolSelfCare = () => {
       </div>
       <div className={style.general_main}>
         <div className={style.general_card}>
-          <img src="/assets/images/busin-planning.jpg" />
+          <img src="/assets/images/services/1-4.jpeg" />
           <h1>Self-Care</h1>
         </div>
         <div className={style.busin_text}>

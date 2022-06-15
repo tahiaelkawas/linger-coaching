@@ -33,11 +33,11 @@ const Footer = () => {
                     </div>
                     <div className={styles.foot_top_sec}>
                         <h5>Contact</h5>
-                        <h4><a href="#">904-495-9848</a></h4>
+                        <h4>(971) 409-2113<br />
+                            (971) 666-7223
+                        </h4>
                         <h5>Mailing Address</h5>
-                        <p>3501 N. Ponce De Leon Blvd.<br />
-                            Suite 106<br />
-                            St. Augustine, FL 32084-1403</p>
+                        <p><a href="mailto:info@lingercoaching.com">info@lingercoaching.com</a></p>
                     </div>
                     <div className={styles.foot_top_third}>
                         <h2>Linger Coaching Advisors</h2>

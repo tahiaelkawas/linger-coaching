@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import SchoolDisc from '../component/pages/shoolDisc'
+import SchoolDisc from '../component/pages/schoolDisc'
 import styles from '../styles/Home.module.css'
 
 export default function SchoolDiscPage() {
