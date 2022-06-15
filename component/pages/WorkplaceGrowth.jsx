@@ -10,20 +10,19 @@ const WorkplaceGrowth = () => {
       </div>
       <div className={style.general_main}>
         <div className={style.general_card}>
-          <img src="/assets/images/busin-planning.jpg" />
+          <img src="/assets/images/services/2-3.jpeg" />
           <h1>Growth Mindset</h1>
         </div>
         <div className={style.busin_text}>
           <p>
-            Educational research is showing that the traditional models of teaching are
-            becoming redundant in the face of an evolving student demographic. To respond
-            to this, it is fundamental to shift the perspectives of teaching to newer and more
-            dynamic models of classroom management. Accordingly, issues such as student
-            bullying, lack of emotional tolerance from teachers, and an inability to mindfully
-            manage deviant behavior still plagues many teachers who identify with traditional
-            models of education. Throughout this workshop of effective teaching, you will
-            discover the modern models of teaching and learn evidence-based methods that
-            will help you navigate difficult environments with ease.
+            A growth mindset is an essential component of a healthy and
+            productive working life. As opposed to a fixed mindset employee who
+            believes that their abilities are already set in stone, a growth
+            mindset employee will always leave room for improvement resulting in
+            constant personal and professional development. This course will
+            teach you how to cultivate the appropriate growth mindset needed to
+            thrive in your respective field, reach long-term milestones and
+            become an integral pillar of your company.
           </p>
         </div>
       </div>
