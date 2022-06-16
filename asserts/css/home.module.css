@@ -207,6 +207,10 @@
   box-sizing: border-box;
 }
 
+.foot_top_first img {
+  width: 100%;
+}
+
 .foot_top_sec {
   text-align: center;
   padding: 8px;

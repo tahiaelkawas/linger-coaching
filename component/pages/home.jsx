@@ -26,7 +26,7 @@ const Home = () => {
           </ul> */}
         </div>
         <div className={styles.title_img}>
-          <img src="/assets/images/new/image5.jpeg" />
+          <img src="/assets/images/new/image2.jpeg" />
         </div>
         {/* <div className={styles.home_service}>
           <h1 className={styles.service_text}>Our Services</h1>

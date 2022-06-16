@@ -6,7 +6,7 @@ const WorkplaceDisc = () => {
   return (
     <div>
       <div className={style.general_title}>
-        <h1>Workplace</h1>
+        <h1>Workplace Workshop</h1>
       </div>
       <div className={style.general_main}>
         <div className={style.general_card}>

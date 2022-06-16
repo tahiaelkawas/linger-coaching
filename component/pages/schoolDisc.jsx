@@ -6,7 +6,7 @@ const SchoolDisc = () => {
   return (
     <div>
       <div className={style.general_title}>
-        <h1>School</h1>
+        <h1>School Workshop</h1>
       </div>
       <div className={style.general_main}>
         <div className={style.general_card}>
