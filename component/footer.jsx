@@ -29,7 +29,7 @@ const Footer = () => {
             <div>
                 <div className={styles.top_footer}>
                     <div className={styles.foot_top_first}>
-                        <img src="/assets/images/logo.png" />
+                        <img src="/assets/images/Logo_Final.gif" />
                     </div>
                     <div className={styles.foot_top_sec}>
                         <h5>Contact</h5>

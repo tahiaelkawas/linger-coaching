@@ -6,15 +6,15 @@ import Link from 'next/link';
 const ServiceBox = () => {
   const ServiceData = [
     {
-      title: "School",
+      title: "School Workshop",
       link: "/school",
     },
     {
-      title: "Workplace",
+      title: "Workplace Workshop",
       link: "/workplace",
     },
     {
-      title: "Parenting",
+      title: "Parenting Workshop",
       link: "/parenting",
     },
   ]

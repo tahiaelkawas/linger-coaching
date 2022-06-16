@@ -4,7 +4,6 @@ import style from './../../asserts/css/about.module.css';
 import Footer from "../footer";
 
 const Blog = () => {
-    console.log(Data)
     return (
         <div>
             <div className={style.blog_main}>

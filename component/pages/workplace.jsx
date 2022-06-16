@@ -37,7 +37,7 @@ const Workplace = () => {
     return (
         <div className={style.service_container}>
             <div className={style.Servic_link_container}>
-                <h2>Workplace</h2>
+                <h2>Workplace Workshop</h2>
                 <div className={style.servic_card_container}>
                     {
                         ServiceData.map((item, index) => (
