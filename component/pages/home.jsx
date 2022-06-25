@@ -12,9 +12,8 @@ const Home = () => {
                  <source src="/Video.mov" type="video/mp4"/>
             </video>
         <div className={styles.home_title}>
-          <h4>BUSINESS ADVISORS, COACHES AND CONSULTANTS</h4>
-          <p>Beacon Business Advisors works collaboratively with business owners in the areas of business planning, employee retention, staffing, cash management, process creation, contingency planning, pivot planning and execution. The result is a business that is more aligned with a business owner’s vision and goals, enjoying increased profit and performance in less time and with less effort. Beacon Business Advisors also support business owners with their new business development. We partner with executives and small businesses that are looking to enhance their leadership and management performance to achieve long term profitability and business growth. Beacon Business Advisors is a St Augustine based Business Advisory and Coaching firm, consulting with clients in the Northeast Florida area including Jacksonville, St Augustine and St Johns County area.</p>
-          <h4>BEACON BUSINESS ADVISORS WILL WORK WITH YOU TO</h4>
+        <h1>Linger Coaching Workshops</h1>
+        <h4>Linger Coaching is a local Pacific Northwest behavior coaching business. The owners are aspired businesswomen implementing behavior changes in their clients through workshops. They believe that proper behavior coaching is essential to every individual&#39;s day-to-day life, whether at workplace, school, or even at home. In addition, they have learned that the cultivation of mindfulness and behavior change increase positive healthy interactions in everyone&#39;s daily life..</h4>
           <h1>Plan. Organize. Perform</h1>
           {/* <ul className={styles.title_box}>
             <h4>

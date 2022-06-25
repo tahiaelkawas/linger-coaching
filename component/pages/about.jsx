@@ -5,10 +5,6 @@ import Footer from "../footer";
 const About = () => {
     return (
         <div>
-            <div className={style.about_title}>
-                <h1>Linger Coaching Workshops</h1>
-                <h4>Linger Coaching is a local Pacific Northwest behavior coaching business. The owners are aspired businesswomen implementing behavior changes in their clients through workshops. They believe that proper behavior coaching is essential to every individual&#39;s day-to-day life, whether at workplace, school, or even at home. In addition, they have learned that the cultivation of mindfulness and behavior change increase positive healthy interactions in everyone&#39;s daily life..</h4>
-            </div>
             <div className={style.about_title2}>
             <h1>About Us</h1>
             <hr />
@@ -17,7 +13,7 @@ const About = () => {
 
             <div className={style.about_content}>
                 <div className={style.about_img}>
-                    <img src="/assets/images/new/rania.jpeg" alt="" />
+                    <img src="/assets/images/new/rania_1.jpeg" alt="" />
                 </div>
                 <div className={style.about_text}>
                     <h4>Rania Abuelzain</h4>
@@ -31,7 +27,7 @@ const About = () => {
                 </div>
             </div><div className={style.about_content}>
                 <div className={style.about_img}>
-                    <img src="/assets/images/new/tahia.jpeg" alt="" />
+                    <img src="/assets/images/new/tahia_1.jpeg" alt="" />
                 </div>
                 <div className={style.about_text}>
                     <h4>Tahia Abdelrahman</h4>
