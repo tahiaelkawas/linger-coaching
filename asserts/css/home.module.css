@@ -35,6 +35,15 @@
   margin-bottom: 15px;
   font-style: italic;
 }
+.home_title h2 {
+  color: #007a4f;
+  line-height: 44px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  font-family: "Mulish", Helvetica, Arial, sans-serif;
+  margin-bottom: 15px;
+  font-style: italic;
+}
 
 .title_box {
   width: 66%;

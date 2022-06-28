@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+.slick-prev {
+  left: 0 !important;
+  z-index: 11;
+}
+.slick-next {
+  right: 0 !important;
+z-index: 11;
+}

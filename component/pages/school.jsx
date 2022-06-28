@@ -9,7 +9,7 @@ const School = () => {
             link: "/school-disc"
         },
         {
-            title: "Social-emotional learning (Self Care), Growth Mindset, Mindfulness",
+            title: "Social Emotional Learning & Growth Mindset",
             link: "/school-social-emotional-learning"
         },
         {
@@ -17,7 +17,7 @@ const School = () => {
             link: "/school-de-escalation-techniques"
         },
         {
-            title: "Self care/life balance",
+            title: "Self-Care",
             link: "/school-self-care"
         },
         {
