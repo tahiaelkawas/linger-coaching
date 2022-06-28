@@ -29,7 +29,7 @@ const Workplace = () => {
             link: "/workplace-conflict-resolutions"
         },
         {
-            title: "Effective communication aund active listening skills",
+            title: "Effective communication and active listening skills",
             link: "/workplace-effective-communication"
         }
     ]

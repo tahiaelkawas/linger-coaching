@@ -26,7 +26,7 @@ const Services = () => {
         <div>
             <Carousel
                 showArrows={true}
-                infiniteLoop={true}
+                infiniteLoop={false}
                 showThumbs={false}
                 showStatus={false}
                 autoPlay={true}

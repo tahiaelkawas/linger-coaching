@@ -22,9 +22,9 @@ const About = () => {
           <hr />
           <div className={style.text_title}>
             <p>
-              My electrical engineer’s personality traits include curiosity,
+              My electrical engineering personality traits include curiosity,
               critical thinking, creativity, effective communication, and a
-              collaborative spirit, long with my interest in exploring new
+              collaborative spirit, along with my interest in exploring new
               subjects and interacting with new technology; training and
               development was my career choice since 1999.
             </p>
@@ -49,6 +49,8 @@ const About = () => {
         </div>
         <div className={style.about_text}>
           <h4>Tahia Abdelrahman</h4>
+          <p>Co-Owner</p>
+
           <hr />
           <div className={style.text_title}>
             <p>
