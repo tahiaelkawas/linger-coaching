@@ -24,7 +24,7 @@ const Footer = () => {
         <div>
             <div className={styles.talk_text}>
                 <h2>Let's Talk.</h2>
-                <a href="#">Schedule a Consultation Today</a>
+                <a href="https://calendly.com/linger-coaching/30min" target="_blank">Schedule a Consultation Today</a>
             </div>
             <div>
                 <div className={styles.top_footer}>
@@ -40,10 +40,9 @@ const Footer = () => {
                         <p><a href="mailto:info@lingercoaching.com">info@lingercoaching.com</a></p>
                     </div>
                     <div className={styles.foot_top_third}>
-                        <h2>Linger Coaching Advisors</h2>
-                        <span>Proud Member of</span>
+                        <h2>Linger Coaching Customer</h2>
                         <div >
-                            <img src="/assets/images/flag_logo.jpg" />
+                            <img src="/assets/images/Portland-Puplic-School-Logo.gif" alt="Portland Puplic School Logo" />
                         </div>
                     </div>
                 </div>

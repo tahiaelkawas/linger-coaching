@@ -10,7 +10,7 @@ const SchoolEffectiveCommunication = () => {
       </div>
       <div className={style.general_main}>
         <div className={style.general_card}>
-          <img src="/assets/images/services/1-6.jpeg" />
+          <img src="/assets/images/services/1-5.jpeg" />
           <h1>Effective communication and active listening skills</h1>
         </div>
         <div className={style.busin_text}>

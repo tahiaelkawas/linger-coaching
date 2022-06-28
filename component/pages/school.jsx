@@ -21,13 +21,14 @@ const School = () => {
             link: "/school-self-care"
         },
         {
-            title: "Effective Teaching Techniques",
-            link: "/school-effective-teaching-techniques"
-        },
-        {
             title: "Effective communication and active listening skills",
             link: "/school-effective-communication"
+        },
+        {
+            title: "Effective Teaching Techniques",
+            link: "/school-effective-teaching-techniques"
         }
+       
     ]
       
     return (
