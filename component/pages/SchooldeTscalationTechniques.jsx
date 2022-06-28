@@ -10,7 +10,7 @@ const SchooldeTscalationTechniques = () => {
       </div>
       <div className={style.general_main}>
         <div className={style.general_card}>
-          <img src="/assets/images/services/1-2.jpeg" />
+          <img src="/assets/images/services/1-3.jpeg" />
           <h1>De-escalation techniques</h1>
         </div>
         <div className={style.busin_text}>

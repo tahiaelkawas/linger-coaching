@@ -252,12 +252,13 @@
 }
 
 .foot_top_third div {
-  background: url(/public/assets/images/flag_logo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 200px;
   height: 200px;
   cursor: pointer;
+}
+
+.foot_top_third img {
+  width: 100%;
 }
 
 .foot_top_third h2 {
@@ -313,6 +314,23 @@
   font-family: auto;
   cursor: pointer;
 }
+
+.landing_images {
+  display: flex;
+}
+
+.landing_images img {
+  padding: 12px;
+}
+
+.landing_images img:first-child {
+  width: 30%;
+}
+
+.landing_images img:nth-child(2) {
+  width: 70%;
+}
+
 
 @media only screen and (max-width: 768px) {
   .home_title {
