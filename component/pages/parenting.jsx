@@ -9,7 +9,7 @@ const Parenting = () => {
             link: "/parenting-care-vs-caregiver"
         },
         {
-            title: "Discipline vs Seeking",
+            title: "Discipline vs Seeking professional help",
             link: "/parenting-discipline-help"
         },
         {
