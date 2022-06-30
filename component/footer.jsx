@@ -24,7 +24,7 @@ const Footer = () => {
         <div>
             <div className={styles.talk_text}>
                 <h2>Let's Talk.</h2>
-                <a href="https://calendly.com/linger-coaching/30min" target="_blank">Schedule a Consultation Today</a>
+                <a href="https://calendly.com/lingercoaching/30min" target="_blank">Schedule a Consultation Today</a>
             </div>
             <div>
                 <div className={styles.top_footer}>
