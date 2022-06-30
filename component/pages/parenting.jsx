@@ -5,11 +5,11 @@ import style from './../../asserts/css/service.module.css';
 const Parenting = () => {
     const ServiceData = [
         {
-            title: "Care vs caregiver",
+            title: "Care vs Caregiver",
             link: "/parenting-care-vs-caregiver"
         },
         {
-            title: "Discipline vs seeking professional help",
+            title: "Discipline vs Seeking",
             link: "/parenting-discipline-help"
         },
         {

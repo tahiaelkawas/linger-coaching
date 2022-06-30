@@ -13,7 +13,7 @@ const Workplace = () => {
             link: "/workplace-social-emotional"
         },
         {
-            title: "Growth mind set",
+            title: "Growth mindset",
             link: "/workplace-growth"
         },
         {
