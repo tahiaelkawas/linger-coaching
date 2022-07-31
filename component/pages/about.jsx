@@ -56,8 +56,7 @@ const About = () => {
             <p>
               I have had a wide range of experience in marketing, business, and
               computer science. I have a bachelor&#39;s degree in information
-              technology, associate degree in software engineering and an
-              associate degree in business.
+              technology, a degree in software engineering and in business.
             </p>
             <p>
               For the past 13 years, I have been actively involved in my
