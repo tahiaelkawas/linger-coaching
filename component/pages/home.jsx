@@ -13,7 +13,8 @@ const Home = () => {
             </video>
         <div className={styles.home_title}>
         <h1>Linger Coaching Workshops</h1>
-        <h4>Linger Coaching is a local Pacific Northwest behavior coaching business. The owners are aspired businesswomen implementing behavior changes in their clients through workshops. They believe that proper behavior coaching is essential to every individual&#39;s day-to-day life, whether at workplace, school, or even at home. In addition, they have learned that the cultivation of mindfulness and behavior change increase positive healthy interactions in everyone&#39;s daily life..</h4>
+        <h4>Linger Coaching is a local Pacific Northwest behavior coaching business. The owners are aspired businesswomen implementing behavior changes in their clients through workshops. They believe that proper behavior coaching is essential to every individual's day-to-day life, whether at workplace, school, or even at home. In addition, they have learned that the cultivation of mindfulness and behavior change increase positive healthy interactions in everyone's daily life..
+</h4>
           <h2>Changing behavior is most effective through changing the mindset. </h2>
         </div>
         <div className={styles.title_img}>
