@@ -9,11 +9,11 @@ const Workplace = () => {
             link: "/workplace-disc"
         },
         {
-            title: "Social emotional learning (Self care)",
+            title: "Social Emotional Eearning ",
             link: "/workplace-social-emotional"
         },
         {
-            title: "Growth mindset",
+            title: "Growth Mindset",
             link: "/workplace-growth"
         },
         {
@@ -21,15 +21,15 @@ const Workplace = () => {
             link: "/workplace-mindfulness"
         },
         {
-            title: "Self care/life balance",
+            title: "Self Care & Life Balance",
             link: "/workplace-self-care"
         },
         {
-            title: "Conflict resolutions",
+            title: "Conflict Resolutions",
             link: "/workplace-conflict-resolutions"
         },
         {
-            title: "Effective communication and active listening skills",
+            title: "Effective Communication & Active Listening Skills",
             link: "/workplace-effective-communication"
         }
     ]
