@@ -9,11 +9,11 @@ const Parenting = () => {
             link: "/parenting-care-vs-caregiver"
         },
         {
-            title: "Discipline vs Seeking professional help",
+            title: "Discipline vs Seeking Professional Help",
             link: "/parenting-discipline-help"
         },
         {
-            title: "Social-emotional learning",
+            title: "Social Emotional Learning",
             link: "/parenting-social-emotional"
         },
         {
@@ -21,7 +21,7 @@ const Parenting = () => {
             link: "/parenting-mindfulness"
         },
         {
-            title: "De-escalation techniques",
+            title: "De-escalation Techniques",
             link: "/parenting-de-escalation-techniques"
         }
     ]
