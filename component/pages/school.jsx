@@ -13,7 +13,7 @@ const School = () => {
             link: "/school-social-emotional-learning"
         },
         {
-            title: "De-escalation techniques",
+            title: "De-escalation Techniques",
             link: "/school-de-escalation-techniques"
         },
         {
@@ -21,7 +21,7 @@ const School = () => {
             link: "/school-self-care"
         },
         {
-            title: "Effective communication and active listening skills",
+            title: "Effective Communication & Active Listening Skills",
             link: "/school-effective-communication"
         },
         {
