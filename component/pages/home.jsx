@@ -13,7 +13,8 @@ const Home = () => {
             </video>
         <div className={styles.home_title}>
         <h1>Linger Coaching Workshops</h1>
-        <h4>Linger Coaching is a local Pacific Northwest behavior coaching business. The owners are aspired businesswomen implementing behavior changes in their clients through workshops. They believe that proper behavior coaching is essential to every individual's day-to-day life, whether at workplace, school, or even at home. In addition, they have learned that the cultivation of mindfulness and behavior change increase positive healthy interactions in everyone's daily life..
+        <h4>Welcome to Linger Coaching
+Based in the Pacific Northwest, Linger Coaching aims to implement positive behavior change in clients through the dispensing of high-quality workshops. As a behavior coaching business, the company’s principle mission is to ensure that every individual receives adequate coaching in all aspects of their environment whether it be at the workplace, school or even at home. Furthermore, through extensive practice, they have integrated the most impactful methods of mindfulness cultivation and behavior change which they believe is central to creating positive interpersonal relations in one’s life and daily functioning.
 </h4>
           <h2>Changing behavior is most effective through changing the mindset. </h2>
         </div>
