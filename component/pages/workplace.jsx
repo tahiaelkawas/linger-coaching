@@ -9,7 +9,7 @@ const Workplace = () => {
             link: "/workplace-disc"
         },
         {
-            title: "Social Emotional Eearning ",
+            title: "Social Emotional Learning ",
             link: "/workplace-social-emotional"
         },
         {
