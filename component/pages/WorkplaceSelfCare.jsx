@@ -11,7 +11,7 @@ const WorkplaceSelfCare = () => {
       <div className={style.general_main}>
         <div className={style.general_card}>
           <img src="/assets/images/services/2-5.jpeg" />
-          <h1>Self-care & life balance</h1>
+          <h1>Self-care & life balance </h1>
         </div>
         <div className={style.busin_text}>
           <p>
