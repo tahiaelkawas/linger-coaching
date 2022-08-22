@@ -11,7 +11,7 @@ const ParentingDisciplineHelp = () => {
       <div className={style.general_main}>
         <div className={style.general_card}>
           <img src="/assets/images/services/3-2.jpeg" />
-          <h1>Discipline vs Seeking</h1>
+          <h1>Discipline vs Seeking Professional Help</h1>
         </div>
         <div className={style.busin_text}>
           <p>
