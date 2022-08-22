@@ -8,15 +8,15 @@ const Navbar = () => {
     const [stickyHover, setStickyHover] = useState(false)
     const ServiceData = [
         {
-            title: "School Workshop",
+            title: "School Workshops",
             link: "/school"
         },
         {
-            title: "Workplace Workshop",
+            title: "Workplace Workshops",
             link: "/workplace"
         },
         {
-            title: "Parenting Workshop",
+            title: "Parenting Workshops",
             link: "/parenting"
         }
     ]
