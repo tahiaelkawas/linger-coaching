@@ -11,7 +11,7 @@ const WorkplaceConflictResolutions = () => {
       <div className={style.general_main}>
         <div className={style.general_card}>
           <img src="/assets/images/services/2-6.jpeg" />
-          <h1>Conflict resolution</h1>
+          <h1>Conflict Resolution</h1>
         </div>
         <div className={style.busin_text}>
           <p>
