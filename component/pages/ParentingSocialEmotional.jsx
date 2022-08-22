@@ -11,7 +11,7 @@ const ParentingSocialEmotional = () => {
       <div className={style.general_main}>
         <div className={style.general_card}>
           <img src="/assets/images/services/3-3.jpeg" />
-          <h1>Social-emotional learning</h1>
+          <h1>Social Emotional Learning</h1>
         </div>
         <div className={style.busin_text}>
           <p>
