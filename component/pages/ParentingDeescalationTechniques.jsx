@@ -11,7 +11,7 @@ const ParentingDeescalationTechniques = () => {
       <div className={style.general_main}>
         <div className={style.general_card}>
           <img src="/assets/images/services/3-5.jpeg" />
-          <h1>De-escalation techniques</h1>
+          <h1>De-escalation Techniques</h1>
         </div>
         <div className={style.busin_text}>
           <p>
