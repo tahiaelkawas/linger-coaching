@@ -11,7 +11,7 @@ const SchoolSocialEmotionalLearning = () => {
       <div className={style.general_main}>
         <div className={style.general_card}>
           <img src="/assets/images/services/1-2.jpeg" />
-          <h1>Social-emotional learning (Self Care), Growth Mindset, Mindfulness</h1>
+          <h1>Social Emotional Learning & Growth Mindset</h1>
         </div>
         <div className={style.busin_text}>
           <p>
