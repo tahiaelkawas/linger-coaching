@@ -11,7 +11,7 @@ const SchoolSelfCare = () => {
       <div className={style.general_main}>
         <div className={style.general_card}>
           <img src="/assets/images/services/1-4.jpeg" />
-          <h1>Self-Care</h1>
+          <h1>Self Care & Life Balance</h1>
         </div>
         <div className={style.busin_text}>
           <p>
