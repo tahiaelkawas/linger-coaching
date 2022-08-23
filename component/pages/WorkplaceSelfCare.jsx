@@ -6,12 +6,12 @@ const WorkplaceSelfCare = () => {
   return (
     <div>
       <div className={style.general_title}>
-        <h1>Workplace Workshop</h1>
+        <h1>Workplace Workshops</h1>
       </div>
       <div className={style.general_main}>
         <div className={style.general_card}>
           <img src="/assets/images/services/2-5.jpeg" />
-          <h1>Self-care & life balance </h1>
+          <h1>Self care & Life Balance </h1>
         </div>
         <div className={style.busin_text}>
           <p>
