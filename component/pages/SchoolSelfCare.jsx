@@ -6,7 +6,7 @@ const SchoolSelfCare = () => {
   return (
     <div>
       <div className={style.general_title}>
-        <h1>School Workshop</h1>
+        <h1>School Workshops</h1>
       </div>
       <div className={style.general_main}>
         <div className={style.general_card}>
